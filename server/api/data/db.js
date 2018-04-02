@@ -2,7 +2,7 @@ var mongoose = require('mongoose')
 
 // var dburl = 'mongodb://localhost:27017/docsafe'	UNCOMMENT THIS IF YOU WISH TO USE LOCAL DB
 
-var dburl = "mongodb://admin:password@ds135817.mlab.com:35817/docsafe" //DB SET UP ONLINE AT mLab
+var dburl = process.env.MONGODB_URI //DB SET UP ONLINE AT mLab
 
 mongoose.connect(dburl)
 
