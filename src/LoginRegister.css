@@ -1,0 +1,12 @@
+
+.LoginRegister{
+	position: relative;
+	top: 180px;
+    width: 25%;
+    margin: auto;
+	border: solid 1px;
+	border-color: grey;
+	padding: 50px;
+	border-radius: 10px;
+	box-shadow: 1px 1px 3px 2px rgba(100,100,100,0.7);
+}

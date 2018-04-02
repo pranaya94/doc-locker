@@ -1,0 +1,8 @@
+.DocumentRow{
+    padding : 10px;
+    border : solid 1px;
+    border-radius: 5px;
+}
+.Document label{
+    margin: 5px;
+}

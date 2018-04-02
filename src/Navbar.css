@@ -1,0 +1,15 @@
+.Navbar{
+    display : flex;
+    align-items: center;
+    text-align: center;
+    background-color : #222;  
+    width : 100%;
+    color : #83d0f2;
+  }
+  
+  .Navbar span{
+      display: inline-block;
+      margin-left: 30%;
+      margin-right: 30%;
+      width: 40%;
+  }
