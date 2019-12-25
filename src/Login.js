@@ -37,7 +37,7 @@ class Login extends Component {
 
             let xhr = new XMLHttpRequest()
             xhr.onreadystatechange = () =>{
-                if(xhr.status === 200 && xhr.readyState === 4){
+                if(xhr.status === 200 && xhr.readyState === 4){ 
                     let token = JSON.parse(xhr.responseText);						      		      
                     window.localStorage.setItem('access_token',token['token']);
                     this.setState({
