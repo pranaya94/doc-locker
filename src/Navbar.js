@@ -11,6 +11,7 @@ class Navbar extends Component{
     logout(){
         window.localStorage.clear()
         window.sessionStorage.clear()
+        
         this.props.handleLogout(false)
         this.props.history.push('/login')
 
