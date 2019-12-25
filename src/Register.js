@@ -73,7 +73,9 @@ class Register extends Component {
             this.setState({
                 passMatch : true
             })
-    }else{
+    }
+    else
+    {
         this.setState({
             passMatch : false
             })

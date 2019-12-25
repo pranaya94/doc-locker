@@ -34,6 +34,7 @@ class Login extends Component {
             this.setState({
                 submitted : true
             })
+
             let xhr = new XMLHttpRequest()
             xhr.onreadystatechange = () =>{
                 if(xhr.status === 200 && xhr.readyState === 4){
